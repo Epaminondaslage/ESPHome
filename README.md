@@ -33,7 +33,7 @@ Graças à sua flexibilidade e extensibilidade, o ESPHome torna o processo de de
 # Protocolo de comunicação do ESPHome
 
 O ESPHome pode usar o protocolo MQTT para comunicação entre os dispositivos ESP8266/ESP32 e o Home Assistant, mas não é exclusivamente limitado a esse protocolo. O ESPHome suporta várias opções de comunicação, e MQTT é apenas uma delas.
-
+<img src="img/esphome0.png"  width="300" height="100">
 Quando se trata de comunicação com o Home Assistant, o ESPHome possui duas opções principais:
 
 <ol>
