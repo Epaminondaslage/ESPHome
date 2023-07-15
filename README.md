@@ -5,8 +5,11 @@
 
 # Índice 
 * [Sites relacionados ao ESPHome](#Sites-relacionados-ao-ESPHome)
-*
-*
+* [ESPHome](#ESPHome) 
+* [Protocolo de comunicação do ESPHome](#Protocolo-de-comunicação-do-ESPHome) 
+* [Comparação entre ESP32 e ESP8266](#Comparação-entre-ESP32-e-ESP8266) 
+* [ESP32](#ESP32) 
+* [ESP8266](#ESP8266) 
 
 # Sites relacionados ao ESPHome
 * https://esphome.io/
@@ -24,6 +27,20 @@ ESPHome é uma estrutura de firmware de código aberto para microcontroladores c
 O ESPHome é especialmente popular entre os desenvolvedores e entusiastas de IoT, pois permite o desenvolvimento de dispositivos personalizados e a integração com outros sistemas de automação residencial, como o Home Assistant. Com o ESPHome, é possível criar sensores, interruptores e outros dispositivos inteligentes controlados por Wi-Fi.
 
 Graças à sua flexibilidade e extensibilidade, o ESPHome torna o processo de desenvolvimento de dispositivos IoT mais acessível a uma ampla gama de usuários. Ele fornece controle total sobre o firmware, permitindo personalizar os dispositivos conforme necessário. O ESPHome simplifica o desenvolvimento de soluções de IoT, proporcionando uma base sólida para a criação de dispositivos conectados e sistemas de automação residencial.
+
+# Protocolo de comunicação do ESPHome
+
+O ESPHome pode usar o protocolo MQTT para comunicação entre os dispositivos ESP8266/ESP32 e o Home Assistant, mas não é exclusivamente limitado a esse protocolo. O ESPHome suporta várias opções de comunicação, e MQTT é apenas uma delas.
+
+Quando se trata de comunicação com o Home Assistant, o ESPHome possui duas opções principais:
+
+<ol>
+<li>1.API Nativa: A API nativa é o método de comunicação padrão usado pelo ESPHome para integrar-se com o Home Assistant. Essa opção permite que o dispositivo ESPHome se comunique diretamente com o Home Assistant, tornando a integração mais direta e menos dependente de outras ferramentas.</li>
+
+<li>2.MQTT: O MQTT é um protocolo de mensagens leve e amplamente utilizado em sistemas de automação residencial e da Internet das Coisas (IoT). O ESPHome também suporta a comunicação via MQTT, o que significa que você pode configurar seus dispositivos ESPHome para se comunicarem com o Home Assistant usando o protocolo MQTT.</li>
+/ol>
+
+Ao utilizar o MQTT, o ESPHome publica e/ou subscreve tópicos MQTT para enviar e receber dados do Home Assistant. Os dados enviados podem incluir leituras de sensores, estado de atuadores, informações de dispositivos e outras informações relevantes.
 
 # Comparação entre ESP32 e ESP8266
 
@@ -71,7 +88,8 @@ As características gerais do ESP32 incluem:
 •	Opções de baixo consumo de energia.
 
 Integração com vários frameworks e plataformas de desenvolvimento, como o ESP-IDF (Espressif IoT Development Framework) e o Arduino. 
-ESP 8266
+
+# ESP 8266
 
 O ESP8266 é um microcontrolador de baixo custo e baixo consumo de energia desenvolvido pela empresa chinesa Espressif Systems. Ele é amplamente utilizado em projetos de Internet das Coisas (IoT) devido às suas capacidades de conectividade Wi-Fi integrada e suporte a uma variedade de protocolos de comunicação.
 
@@ -88,7 +106,6 @@ Principais características do ESP8266:
 
 O ESP8266 é uma opção popular para projetos de IoT devido à sua conectividade Wi-Fi embutida, baixo custo, facilidade de uso e ampla comunidade de desenvolvedores. Ele pode ser utilizado em uma variedade de aplicações, como automação residencial, monitoramento remoto, controle de dispositivos e muitos outros.
 
-COMO utilizar NodeMCU ESP8266
 
 
 
