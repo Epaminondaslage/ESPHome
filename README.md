@@ -134,5 +134,31 @@ Figura x: Instalação do ESPHme no Home Assistant
 <img src="img/esphome02.png"  width="300" height="350">
 Figura x: Configuração do ESPHme no Home Assistant
 
+# Criando dispositivos com ESPHome
+
+Pra criar um novo dispositivo vamos fazer o exemplo de um sensor te temperatura e umidade com ESP8266 e Crie um arquivo de configuração YAML para o dispositivo ESP8266 e DHT11
+<ol></ol>
+<li>No Home Assistant, acesse novamente o painel esquerdo e clique em "Supervisor", depois selecione "ESPHome Dashboard". Clique no botão "+", localizado no canto inferior direito, para adicionar um novo dispositivo ESP. Dê um nome para o dispositivo e, em seguida, clique em "Criar".</li>
+
+<img src="img/esphome03.png"  width="300" height="350">
+Figura x: Configuração do ESPHme no Home Assistant
+
+. Preencha o arquivo de configuração YAML
+•	Você será redirecionado para a página de edição do dispositivo. Aqui, você pode começar a preencher o arquivo de configuração YAML com as informações específicas do dispositivo e dos sensores que deseja adicionar.
+•	O ESPHome oferece uma documentação abrangente sobre as configurações disponíveis que você pode adicionar ao arquivo YAML para personalizar o comportamento do dispositivo.
+Passo 5: Verificar a configuração e compilar o firmware
+•	Depois de preencher o arquivo YAML, clique em "Salvar" para verificar a configuração.
+•	Se não houver erros, clique em "Compile" para criar o firmware personalizado para o dispositivo.
+Passo 6: Flash do firmware para o dispositivo ESP
+•	Após a compilação, o firmware estará disponível para download.
+•	Você precisará conecta o dispositivo ESP ao computador via USB, para então utilizar uma ferramenta como o "esphome-flasher" para enviar o firmware para o dispositivo.
+Passo 7: Monitorar o dispositivo no Home Assistant
+•	Quando o dispositivo estiver conectado ao Home Assistant com o novo firmware, ele será automaticamente detectado e adicionado à interface do usuário do Home Assistant.
+•	Agora você pode monitorar e controlar o dispositivo diretamente através do Home Assistant.
+Lembre-se de que, ao adicionar ou modificar sensores no arquivo YAML do ESPHome, você precisará recompilar e reenviar o firmware para o dispositivo ESP.
+</ol>
+
+
+
 
 
