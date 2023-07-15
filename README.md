@@ -51,7 +51,7 @@ Ao utilizar o MQTT, o ESPHome publica e/ou subscreve tópicos MQTT para enviar e
 # Comparação entre ESP32 e ESP8266
 
 O ESP32 e o ESP8266 são dois microcontroladores populares desenvolvidos pela empresa Espressif Systems. Embora ambos os dispositivos sejam amplamente utilizados em projetos de IoT e compartilhem algumas características semelhantes, eles também possuem diferenças significativas em termos de desempenho, recursos e capacidades de conectividade. Segue uma comparação entre o ESP32 e o ESP8266:
-<ol>
+<ul>
 <li>Processador: O ESP32 possui um processador de 32 bits mais poderoso e rápido em comparação com o ESP8266. Enquanto o ESP8266 normalmente opera a uma velocidade de 80 MHz, o ESP32 pode operar em frequências de até 240 MHz.</li>
 <li>Núcleos de CPU: O ESP32 é equipado com dois núcleos de CPU, permitindo a execução de múltiplas tarefas simultaneamente. Já o ESP8266 possui apenas um núcleo de CPU.</li>
 <li>Conectividade Wi-Fi: Ambos os microcontroladores suportam conectividade Wi-Fi, mas o ESP32 oferece suporte a padrões mais avançados, como 802.11 b/g/n e 802.11ac. Isso significa que o ESP32 é capaz de alcançar velocidades de conexão Wi-Fi mais altas do que o ESP8266.</li>
@@ -60,7 +60,7 @@ O ESP32 e o ESP8266 são dois microcontroladores populares desenvolvidos pela em
 <li>GPIOs: O número de pinos GPIO disponíveis no ESP32 é geralmente maior do que no ESP8266, o que oferece mais flexibilidade para conectar periféricos e sensores externos.</li>
 <li>Periféricos adicionais: O ESP32 oferece suporte a uma variedade de periféricos adicionais em comparação com o ESP8266. Isso inclui suporte para Ethernet, interfaces de câmera, interfaces de toque capacitivo, entre outros.</li>
 <li>Consumo de energia: Embora ambos os microcontroladores sejam projetados para baixo consumo de energia, o ESP32 pode ser mais eficiente em termos de consumo energético em certos cenários devido ao suporte a recursos de economia de energia mais avançados.</li>
-</ol>
+</ul>
 No geral, o ESP32 é uma opção mais avançada e poderosa em comparação com o ESP8266. Ele oferece maior velocidade de processamento, mais memória, suporte a Bluetooth e uma variedade de periféricos adicionais. No entanto, o ESP8266 ainda é uma escolha viável para projetos mais simples e com requisitos mais básicos de conectividade Wi-Fi. A escolha entre os dois microcontroladores depende das necessidades específicas do projeto e das funcionalidades desejadas.
 
 # ESP32
