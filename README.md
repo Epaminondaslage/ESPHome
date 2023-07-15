@@ -12,7 +12,7 @@
 * [ESP8266](#ESP8266) 
 
 # Sites relacionados ao ESPHome
-* https://esphome.io/
+* Site do ESPHome https://esphome.io/
 * Configuração da Biblioteca de Placas (Colar o link no preferences da IDE Arduino):  
    https://arduino.esp8266.com/stable/package_esp8266com_index.json
 * ch340-drivers. NodeMCU V3
@@ -23,6 +23,8 @@ https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
 # ESPHome  
 
 ESPHome é uma estrutura de firmware de código aberto para microcontroladores como ESP8266 e ESP32. Ele permite a configuração e integração de dispositivos IoT personalizados por meio de uma linguagem de configuração baseada em YAML. A plataforma ESPHome suporta uma variedade de componentes, como sensores, atuadores e interfaces de comunicação, incluindo MQTT e API REST. Ela oferece recursos avançados, como atualização OTA (Over-The-Air) para facilitar a atualização remota do firmware dos dispositivos.
+
+<img src="img/Esphome0.jpg"  width="300" height="200">
 
 O ESPHome é especialmente popular entre os desenvolvedores e entusiastas de IoT, pois permite o desenvolvimento de dispositivos personalizados e a integração com outros sistemas de automação residencial, como o Home Assistant. Com o ESPHome, é possível criar sensores, interruptores e outros dispositivos inteligentes controlados por Wi-Fi.
 
@@ -89,7 +91,7 @@ As características gerais do ESP32 incluem:
 
 Integração com vários frameworks e plataformas de desenvolvimento, como o ESP-IDF (Espressif IoT Development Framework) e o Arduino. 
 
-# ESP 8266
+# ESP8266
 
 O ESP8266 é um microcontrolador de baixo custo e baixo consumo de energia desenvolvido pela empresa chinesa Espressif Systems. Ele é amplamente utilizado em projetos de Internet das Coisas (IoT) devido às suas capacidades de conectividade Wi-Fi integrada e suporte a uma variedade de protocolos de comunicação.
 
@@ -105,6 +107,21 @@ Principais características do ESP8266:
 8.	Tamanho compacto: O ESP8266 é disponibilizado em diferentes formatos, como módulos ou chips, com dimensões reduzidas. Isso permite sua fácil integração em projetos com espaço limitado.
 
 O ESP8266 é uma opção popular para projetos de IoT devido à sua conectividade Wi-Fi embutida, baixo custo, facilidade de uso e ampla comunidade de desenvolvedores. Ele pode ser utilizado em uma variedade de aplicações, como automação residencial, monitoramento remoto, controle de dispositivos e muitos outros.
+
+# Instalando o ESPHome no Home Assistant
+
+1- Instale o complemento ESPHome Dashboard no Home Assistant
+
+•	Acesse o Home Assistant em seu navegador web.
+•	No painel esquerdo, clique em "Supervisor" e selecione "Add-on Store".
+•	Na loja de Addons, procure por "ESPHome Dashboard".
+•	Clique no complemento e, em seguida, clique no botão "Instalar".
+
+2- Configurar o complemento ESPHome Dashboard
+
+•	Depois de instalar o complemento, clique em "Configuração".
+•	Aqui você pode ajustar as configurações do complemento, como a porta que ele usará.
+
 
 
 
