@@ -87,7 +87,7 @@ As características gerais do ESP32 incluem:
 <li>Wi-Fi integrado (802.11b/g/n).</li>
 <li>Bluetooth integrado (até a versão 5.0).</li>
 <li>Diversos periféricos, como GPIOs, UART, SPI, I2C, PWM e ADC.</li>
-/li>Suporte para criptografia e segurança.</li>
+<li>Suporte para criptografia e segurança.</li>
 <li>Capacidade de memória flash interna, geralmente variando de 4 MB a 16 MB.</li>
 <li>Possibilidade de expansão de memória externa usando PSRAM.</li>
 <li>Suporte para atualizações de firmware OTA (Over-The-Air).</li>
