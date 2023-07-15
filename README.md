@@ -101,7 +101,7 @@ Integração com vários frameworks e plataformas de desenvolvimento, como o ESP
 O ESP8266 é um microcontrolador de baixo custo e baixo consumo de energia desenvolvido pela empresa chinesa Espressif Systems. Ele é amplamente utilizado em projetos de Internet das Coisas (IoT) devido às suas capacidades de conectividade Wi-Fi integrada e suporte a uma variedade de protocolos de comunicação.
 
 Principais características do ESP8266:
-<ol>
+<ul>
 <li>Processador: O ESP8266 possui um processador de 32 bits com arquitetura RISC, geralmente operando a uma velocidade de 80 MHz.</li>
 <li>Conectividade Wi-Fi: É uma das principais vantagens do ESP8266. Ele suporta o padrão 802.11 b/g/n, permitindo a comunicação sem fio com outros dispositivos ou redes. </li>
 <li>Memória: O ESP8266 geralmente possui uma memória flash embutida para armazenamento de código e dados. As capacidades de memória variam entre os modelos, mas geralmente estão disponíveis em tamanhos de 512 KB a 16 MB.</li>
@@ -110,8 +110,8 @@ Principais características do ESP8266:
 <li>Suporte a protocolos de comunicação: Além do Wi-Fi, o ESP8266 suporta outros protocolos de comunicação, como TCP/IP, UDP, MQTT e HTTP. Isso permite a integração com plataformas de nuvem, serviços da web e aplicativos móveis.</li>
 <li>Frameworks de desenvolvimento: O ESP8266 é compatível com vários frameworks de desenvolvimento, incluindo o Arduino IDE, o MicroPython e o Espressif IoT Development Framework (ESP-IDF). Isso facilita a programação e o desenvolvimento de aplicativos para o microcontrolador.</li>
 <li>Tamanho compacto: O ESP8266 é disponibilizado em diferentes formatos, como módulos ou chips, com dimensões reduzidas. Isso permite sua fácil integração em projetos com espaço limitado.</li>
-   
-</ol>
+</ul>
+
 O ESP8266 é uma opção popular para projetos de IoT devido à sua conectividade Wi-Fi embutida, baixo custo, facilidade de uso e ampla comunidade de desenvolvedores. Ele pode ser utilizado em uma variedade de aplicações, como automação residencial, monitoramento remoto, controle de dispositivos e muitos outros.
 
 # Instalando o ESPHome no Home Assistant
