@@ -120,15 +120,15 @@ O ESP8266 é uma opção popular para projetos de IoT devido à sua conectividad
 •	Na loja de Addons, procure por "ESPHome Dashboard".
 •	Clique no complemento e, em seguida, clique no botão "Instalar".
 
-<img src="img/esphome01.png"  width="400" height="400">
-Figura x: Intalação do ESPHme no Home Assistant
+<img src="img/esphome01.png"  width="300" height="350">
+Figura x: Instalação do ESPHme no Home Assistant
 
 2- Configurar o complemento ESPHome Dashboard
 
 •	Depois de instalar o complemento, clique em "Configuração".
 •	Aqui você pode ajustar as configurações do complemento, como a porta que ele usará.
 
-<img src="img/esphome02.png"  width="400" height="400">
+<img src="img/esphome02.png"  width="300" height="350">
 Figura x: Configuração do ESPHme no Home Assistant
 
 
