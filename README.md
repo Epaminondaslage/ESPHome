@@ -136,17 +136,30 @@ Figura x: Configuração do ESPHme no Home Assistant
 
 # Criando dispositivos com ESPHome
 
-Pra criar um novo dispositivo vamos fazer o exemplo de um sensor te temperatura e umidade com ESP8266 e Crie um arquivo de configuração YAML para o dispositivo ESP8266 e DHT11
+Pra criar um novo dispositivo vamos fazer o exemplo de um sensor te temperatura e umidade com ESP8266 e Crie um arquivo de configuração YAML para o dispositivo ESP32 e DHT11
 <ol></ol>
 <li>No Home Assistant, acesse novamente o painel esquerdo e clique em "Supervisor", depois selecione "ESPHome Dashboard". Clique no botão "+", localizado no canto inferior direito, para adicionar um novo dispositivo ESP. Dê um nome para o dispositivo e, em seguida, clique em "Criar".</li>
 
-<img src="img/esphome03.png"  width="300" height="350">
+<img src="img/esphome06.png"  width="300" height="400">
+Figura x: Configuração do ESPHme no Home Assistant
+
+Aparecerá a mensagem:
+
+<img src="img/esphome07.png"  width="300" height="400">
+Figura x: Configuração do ESPHme no Home Assistant
+
+A opçao que vamos usar será : instalar o ESPHome conectando o dispositivo ao computador que executa o painel do ESPHome (raspberry).
+
+<li>Escolha um nome para o sensor.Selecione o modelo do ESP32 a ser utilizado. Escolha o médodo do Home Assistant complilar o código e gravar no ESP32 </li>
+
+<img src="img/esphome08.png"  width="300" height="400">
 Figura x: Configuração do ESPHme no Home Assistant
 
 . Preencha o arquivo de configuração YAML
 •	Você será redirecionado para a página de edição do dispositivo. Aqui, você pode começar a preencher o arquivo de configuração YAML com as informações específicas do dispositivo e dos sensores que deseja adicionar.
 •	O ESPHome oferece uma documentação abrangente sobre as configurações disponíveis que você pode adicionar ao arquivo YAML para personalizar o comportamento do dispositivo.
-Passo 5: Verificar a configuração e compilar o firmware
+
+Verificar a configuração e compilar o firmware
 •	Depois de preencher o arquivo YAML, clique em "Salvar" para verificar a configuração.
 •	Se não houver erros, clique em "Compile" para criar o firmware personalizado para o dispositivo.
 Passo 6: Flash do firmware para o dispositivo ESP
