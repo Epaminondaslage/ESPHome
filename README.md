@@ -163,15 +163,15 @@ Figura x: Conexão do ESPHme ao Raspberry onde roda o Home Assistant
 <li>
 Para preencher o arquivo de configuração YAML conforme o sensor/dispositivo desejado. Vá ao site do EspHome e procure. https://esphome.io/components/sensor/dht.html?highlight=dht22 .Você será redirecionado para a página de edição do dispositivo. Aqui, você pode começar a preencher o arquivo de configuração YAML com as informações específicas do dispositivo e dos sensores que deseja adicionar.O ESPHome oferece uma documentação abrangente sobre as configurações disponíveis que você pode adicionar ao arquivo YAML para personalizar o comportamento do dispositivo.</li>
 
-<img src="img/esphome10.png"  width="250" height="500">
+<img src="img/esphome10.png"  width="300" height="500">
 Figura x: site do ESPHome e sensor desejado
 <li>
 Verificar a configuração e compilar o firmware
 * Depois de preencher o arquivo YAML, clique em "Salvar" para verificar a configuração.
 * Se não houver erros, clique em "Compile" para criar o firmware personalizado para o dispositivo. O próximo passo será fazer o Flash do firmware para o dispositivo ESP. Deve-se tomar muita atenção com a identação no arquivo YAML. Ele é obrigatória.
 
-<img src="img/esphome11.png"  width="500" height="300">
-Figura x: Site do ESPHome e sensor desejado
+<img src="img/esphome11.png"  width="250" height="300">
+Figura x: Arquivo YAML do sensor desejado
 
 <li>Montagem fisica do sensor no ESP32</li>li>
 
