@@ -165,16 +165,20 @@ Para preencher o arquivo de configuração YAML conforme o sensor/dispositivo de
 
 <img src="img/esphome10.png"  width="250" height="500">
 Figura x: site do ESPHome e sensor desejado
-
-</li>
+<li>
 Verificar a configuração e compilar o firmware
-•	Depois de preencher o arquivo YAML, clique em "Salvar" para verificar a configuração.
-•	Se não houver erros, clique em "Compile" para criar o firmware personalizado para o dispositivo. o proximo passo será fazer o Flash do firmware para o dispositivo ESP.
+* Depois de preencher o arquivo YAML, clique em "Salvar" para verificar a configuração.
+* Se não houver erros, clique em "Compile" para criar o firmware personalizado para o dispositivo. O próximo passo será fazer o Flash do firmware para o dispositivo ESP. Deve-se tomar muita atenção com a identação no arquivo YAML. Ele é obrigatória.
 
-<img src="img/esphome10.png"  width="250" height="500">
-Figura x: site do ESPHome e sensor desejado
+<img src="img/esphome11.png"  width="500" height="300">
+Figura x: Site do ESPHome e sensor desejado
 
-•	Após a compilação, o firmware estará disponível para download.
+<li>Montagem fisica do sensor no ESP32</li>li>
+
+<img src="img/esphome12.png"  width="250" height="250">
+Figura x: Sensor DHT 22 e Módulo sensor DHT22
+
+<li>Após a compilação, o firmware estará disponível para download.</li>
 
 Passo 7: Monitorar o dispositivo no Home Assistant
 •	Quando o dispositivo estiver conectado ao Home Assistant com o novo firmware, ele será automaticamente detectado e adicionado à interface do usuário do Home Assistant.
