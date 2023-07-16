@@ -176,24 +176,21 @@ Figura x: Parte do código YAML do sensor desejado
 Figura x: Arquivo YAML completo
 </p>
 <li>Montagem fisica do sensor DHT22</li>
-* O DHT22 e o DHT11 requerem resistores pull up externos na linha de dados. Para fazer isso, solde um resistor com cerca de 4,7kΩ (qualquer coisa na faixa de 1kΩ a 10kΩ provavelmente funcionará bem, mas se tiver problemas tente o de 4,7kΩ recomendado pelo fabricante) entre DATA e 3,3V. Será mais p'rtico adquirir o módulo sensor pois este já vem com os resités necessários.
+* O DHT22 e o DHT11 requerem resistores pull up externos na linha de dados. Para fazer isso, solde um resistor com cerca de 4,7kΩ (qualquer coisa na faixa de 1kΩ a 10kΩ provavelmente funcionará bem, mas se tiver problemas tente o de 4,7kΩ recomendado pelo fabricante) entre DATA e 3,3V. Será mais prático adquirir o módulo sensor pois este já vem com os resitores necessários.
 </p>
 <img src="img/esphome12.png"  width="320" height="220">
 Figura x: Sensor DHT 22 e Módulo sensor DHT22
 </p>
 <li>Montagem fisica do módulo sensor DHT22 no ESP32 DEV</li>
-
-
+* Deve-se obdervar os terminas Vcc(3,3V),GND e o pino de entrada do sensor (D2) no ESP32 a ser utilizado.
 </p>
 <img src="img/esphome13.png"  width="500" height="250">
 Figura x: Montagem fisica do módulo sensor DHT22 no ESP32 DEV
 </p>
-
 <li>Após a compilação, o firmware estará disponível para download.</li>
-
-Passo 7: Monitorar o dispositivo no Home Assistant
-•	Quando o dispositivo estiver conectado ao Home Assistant com o novo firmware, ele será automaticamente detectado e adicionado à interface do usuário do Home Assistant.
-•	Agora você pode monitorar e controlar o dispositivo diretamente através do Home Assistant.
+* Quando o dispositivo estiver conectado ao Home Assistant com o novo firmware, ele será automaticamente detectado e adicionado à interface do usuário do Home Assistant.
+* Agora você pode monitorar e controlar o dispositivo diretamente através do Home Assistant.
+</p>
 Lembre-se de que, ao adicionar ou modificar sensores no arquivo YAML do ESPHome, você precisará recompilar e reenviar o firmware para o dispositivo ESP.
 </ol>
 
