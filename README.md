@@ -36,7 +36,7 @@ O ESPHome pode usar o protocolo MQTT para comunicação entre os dispositivos ES
 
 <img src="img/esphome0.png"  width="300" height="100">
 
-Figura x: Comunicação ESPHome - Home Assistant
+Figura 1: Comunicação ESPHome - Home Assistant
 
 Quando se trata de comunicação com o Home Assistant, o ESPHome possui duas opções principais:
 
@@ -124,7 +124,7 @@ O ESP8266 é uma opção popular para projetos de IoT devido à sua conectividad
 * Clique no complemento e, em seguida, clique no botão "Instalar".
 
 <img src="img/esphome01.png"  width="300" height="350">
-Figura x: Instalação do ESPHome no Home Assistant
+Figura 2: Instalação do ESPHome no Home Assistant
 
 2- Configurar o complemento ESPHome Dashboard
 
@@ -132,7 +132,7 @@ Figura x: Instalação do ESPHome no Home Assistant
 * Aqui você pode ajustar as configurações do complemento, como a porta que ele usará.
 
 <img src="img/esphome02.png"  width="300" height="350">
-Figura x: Configuração do ESPHome no Home Assistant
+Figura 3: Configuração do ESPHome no Home Assistant
 
 # Criando dispositivos com ESPHome
 
@@ -141,51 +141,51 @@ Pra criar um novo dispositivo vamos fazer o exemplo de um sensor te temperatura 
 <li>No Home Assistant, acesse novamente o painel esquerdo e clique em "Supervisor", depois selecione "ESPHome Dashboard". Clique no botão "+", localizado no canto inferior direito, para adicionar um novo dispositivo ESP. Dê um nome para o dispositivo e, em seguida, clique em "Criar".</li>
 </p>
 <img src="img/esphome06.png"  width="350" height="400">
-Figura x: Configuração do ESPHome no Home Assistant
+Figura 4: Configuração do ESPHome no Home Assistant
 </p>
 Aparecerá a mensagem:
 </p>
 <img src="img/esphome07.png"  width="350" height="400">
-Figura x: Configuração do ESPHme no Home Assistant
+Figura 5: Configuração do ESPHme no Home Assistant
 </p>
 A opçao que vamos usar será : instalar o ESPHome conectando o dispositivo ao computador que executa o painel do ESPHome (raspberry).
 </p>
 <li>Escolha um nome para o sensor.Selecione o modelo do ESP32 a ser utilizado. Escolha o médodo do Home Assistant complilar o código e gravar no ESP32 </li>
 </p>
 <img src="img/esphome08.png"  width="350" height="400">
-Figura x: Configuração do ESPHme no Home Assistant
+Figura 6: Configuração do ESPHme no Home Assistant
 </p>
 <li> Você deverá conectar o ESP32 com um cabo USP a uma porta do raspberry.</li>
  </p>  
 <img src="img/esphome09.png"  width="350" height="400">
-Figura x: Conexão do ESPHome ao Raspberry onde roda o Home Assistant
+Figura 7: Conexão do ESPHome ao Raspberry onde roda o Home Assistant
  </p>  
 <li>Para preencher o arquivo de configuração YAML conforme o sensor/dispositivo desejado. Vá ao site do EspHome e procure. https://esphome.io/components/sensor/dht.html?highlight=dht22 .Você será redirecionado para a página de edição do dispositivo. Aqui, você pode começar a preencher o arquivo de configuração YAML com as informações específicas do dispositivo e dos sensores que deseja adicionar.O ESPHome oferece uma documentação abrangente sobre as configurações disponíveis que você pode adicionar ao arquivo YAML para personalizar o comportamento do dispositivo.</li>
 </p>
 <img src="img/esphome10.png"  width="600" height="400">
-Figura x: site do ESPHome e sensor desejado
+Figura 8: site do ESPHome e sensor desejado
 </p>
 <li> Verificar a configuração do arquivo YAML e compilar o firmware</li>
 * Depois de preencher o arquivo YAML, clique em "Salvar" para verificar a configuração.
 * Se não houver erros, clique em "Compile" para criar o firmware personalizado para o dispositivo. O próximo passo será fazer o Flash do firmware para o dispositivo ESP. Deve-se tomar muita atenção com a identação no arquivo YAML. Ele é obrigatória.
 </p>
 <img src="img/esphome11.png"  width="290" height="250">
-Figura x: Parte do código YAML do sensor desejado
+Figura 9: Parte do código YAML do sensor desejado
 </p>
 <img src="img/esphome11a.png"  width="350" height="250">
-Figura x: Arquivo YAML completo
+Figura 10: Arquivo YAML completo
 </p>
 <li>Montagem fisica do sensor DHT22</li>
 * O DHT22 e o DHT11 requerem resistores pull up externos na linha de dados. Para fazer isso, solde um resistor com cerca de 4,7kΩ (qualquer coisa na faixa de 1kΩ a 10kΩ provavelmente funcionará bem, mas se tiver problemas tente o de 4,7kΩ recomendado pelo fabricante) entre DATA e 3,3V. Será mais prático adquirir o módulo sensor pois este já vem com os resitores necessários.
 </p>
 <img src="img/esphome12.png"  width="290" height="220">
-Figura x: Sensor DHT 22 e Módulo sensor DHT22
+Figura 11: Sensor DHT 22 e Módulo sensor DHT22
 </p>
 <li>Montagem fisica do módulo sensor DHT22 no ESP32 DEV</li>
 * Deve-se obdervar os terminas Vcc(3,3V),GND e o pino de entrada do sensor (D2) no ESP32 a ser utilizado.
 </p>
 <img src="img/esphome13.png"  width="500" height="250">
-Figura x: Montagem fisica do módulo sensor DHT22 no ESP32 DEV
+Figura 12: Montagem fisica do módulo sensor DHT22 no ESP32 DEV
 </p>
 <li>Após a compilação, o firmware estará disponível para download.</li>
 </p>
