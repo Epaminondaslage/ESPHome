@@ -9,9 +9,12 @@
 * [Protocolo de comunicação do ESPHome](#Protocolo-de-comunicação-do-ESPHome) 
 * [Comparação entre ESP32 e ESP8266](#Comparação-entre-ESP32-e-ESP8266) 
 * [ESP32](#ESP32) 
-* [ESP8266](#ESP8266) 
+* [ESP8266](#ESP8266)
+* [Instalando o ESPHome no Home Assistant](#Instalando-o-ESPHome-no-Home-Assistant)
+* [Criação de dispositivos com ESPHome](#Criação-de-dispositivos-com-ESPHome)
 
 # Sites relacionados ao ESPHome
+
 * Site do ESPHome https://esphome.io/ 
 * Configuração da Biblioteca de Placas (Colar o link no preferences da IDE Arduino):  
    https://arduino.esp8266.com/stable/package_esp8266com_index.json
@@ -19,9 +22,9 @@
     https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all *
 * CP210x USB to UART Bridge  NodeMCU V3
 https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
-</p>
+
 # ESPHome  
-</p>
+
 ESPHome é uma estrutura de firmware de código aberto para microcontroladores como ESP8266 e ESP32. Ele permite a configuração e integração de dispositivos IoT personalizados por meio de uma linguagem de configuração baseada em YAML. A plataforma ESPHome suporta uma variedade de componentes, como sensores, atuadores e interfaces de comunicação, incluindo MQTT e API REST. Ela oferece recursos avançados, como atualização OTA (Over-The-Air) para facilitar a atualização remota do firmware dos dispositivos.
 </p>
 <img src="img/esphome.png"  width="407" height="75">
@@ -62,9 +65,9 @@ O ESP32 e o ESP8266 são dois microcontroladores populares desenvolvidos pela em
 <li>Consumo de energia: Embora ambos os microcontroladores sejam projetados para baixo consumo de energia, o ESP32 pode ser mais eficiente em termos de consumo energético em certos cenários devido ao suporte a recursos de economia de energia mais avançados.</li>
 </ul>
 No geral, o ESP32 é uma opção mais avançada e poderosa em comparação com o ESP8266. Ele oferece maior velocidade de processamento, mais memória, suporte a Bluetooth e uma variedade de periféricos adicionais. No entanto, o ESP8266 ainda é uma escolha viável para projetos mais simples e com requisitos mais básicos de conectividade Wi-Fi. A escolha entre os dois microcontroladores depende das necessidades específicas do projeto e das funcionalidades desejadas.
-</p>
+
 # ESP32
-</p>
+
 O ESP32 é um microcontrolador de baixo custo e baixo consumo de energia desenvolvido pela Espressif Systems. Ele é baseado na arquitetura Xtensa LX6 e é amplamente utilizado em projetos de IoT e dispositivos inteligentes. Ele possui um processador dual-core de 32 bits com clock de até 240 MHz, o que permite uma maior capacidade de processamento em comparação com outros microcontroladores. Ele também possui uma ampla variedade de periféricos, incluindo GPIOs, UART, SPI, I2C, PWM e ADC, que permitem a interação com diferentes dispositivos e sensores.
 </p>
 Uma das principais vantagens do ESP32 é a presença de conectividade Wi-Fi e Bluetooth integrada. Isso permite que os dispositivos baseados em ESP32 se conectem a redes sem fio, interajam com outros dispositivos e se integrem a serviços em nuvem. Além disso, o ESP32 possui uma ampla gama de recursos adicionais, como suporte para criptografia e segurança, suporte para atualizações de firmware OTA (Over-The-Air) e suporte para armazenamento externo de dados, como cartões SD.
@@ -95,9 +98,9 @@ As características gerais do ESP32 incluem:
 </ul>
 </p>
 Integração com vários frameworks e plataformas de desenvolvimento, como o ESP-IDF (Espressif IoT Development Framework) e o Arduino. 
-</p>
+
 # ESP8266
-</p>
+
 O ESP8266 é um microcontrolador de baixo custo e baixo consumo de energia desenvolvido pela empresa chinesa Espressif Systems. Ele é amplamente utilizado em projetos de Internet das Coisas (IoT) devido às suas capacidades de conectividade Wi-Fi integrada e suporte a uma variedade de protocolos de comunicação.
 </p>
 Principais características do ESP8266:
@@ -113,9 +116,9 @@ Principais características do ESP8266:
 </ul>
 </p>
 O ESP8266 é uma opção popular para projetos de IoT devido à sua conectividade Wi-Fi embutida, baixo custo, facilidade de uso e ampla comunidade de desenvolvedores. Ele pode ser utilizado em uma variedade de aplicações, como automação residencial, monitoramento remoto, controle de dispositivos e muitos outros.
-</p>
+
 # Instalando o ESPHome no Home Assistant
-</p>
+
 1- Instale o complemento ESPHome Dashboard no Home Assistant
 </p>
 * Acesse o Home Assistant em seu navegador web.
@@ -133,9 +136,9 @@ Figura 2: Instalação do ESPHome no Home Assistant
 </p>
 <img src="img/esphome02.png"  width="300" height="350">
 Figura 3: Configuração do ESPHome no Home Assistant
-</p>
-# Criando dispositivos com ESPHome
-</p>
+
+# Criação de dispositivos com ESPHome
+
 Pra criar um novo dispositivo vamos fazer o exemplo de um sensor te temperatura e umidade com ESP8266 e Crie um arquivo de configuração YAML para o dispositivo ESP32 e DHT22
 <ol></ol>
 <li>No Home Assistant, acesse novamente o painel esquerdo e clique em "Supervisor", depois selecione "ESPHome Dashboard". Clique no botão "+", localizado no canto inferior direito, para adicionar um novo dispositivo ESP. Dê um nome para o dispositivo e, em seguida, clique em "Criar".</li>
