@@ -139,9 +139,9 @@ Figura 3: Configuração do ESPHome no Home Assistant
 
 # Criação de dispositivos com ESPHome
 
-Pra criar um novo dispositivo vamos fazer o exemplo de um sensor te temperatura e umidade com ESP8266 e Crie um arquivo de configuração YAML para o dispositivo ESP32 e DHT22
+Pra criar um novo dispositivo vamos fazer o exemplo de um sensor te temperatura e umidade com ESP32 DEV e Cria um arquivo de configuração YAML para o sensor DHT22 através do ESPHome.
 <ol></ol>
-<li>No Home Assistant, acesse novamente o painel esquerdo e clique em "Supervisor", depois selecione "ESPHome Dashboard". Clique no botão "+", localizado no canto inferior direito, para adicionar um novo dispositivo ESP. Dê um nome para o dispositivo e, em seguida, clique em "Criar".</li>
+<li>No Home Assistant, acesse novamente o painel esquerdo e clique em "Supervisor", depois selecione "ESPHome Dashboard". Clique no botão "+", localizado no canto inferior direito, para adicionar um novo dispositivo ESP. Dê um nome para o ESP 32  utilizasdo e, em seguida, clique em "Criar".</li>
 </p>
 <img src="img/esphome06.png"  width="350" height="400">
 Figura 4: Configuração do ESPHome no Home Assistant
@@ -158,7 +158,7 @@ A opçao que vamos usar será : instalar o ESPHome conectando o dispositivo ao c
 <img src="img/esphome08.png"  width="350" height="400">
 Figura 6: Configuração do ESPHme no Home Assistant
 </p>
-<li> Você deverá conectar o ESP32 com um cabo USP a uma porta do raspberry.</li>
+<li> Você deverá conectar o ESP32 com um cabo USB a uma porta do Raspberry.</li>
  </p>  
 <img src="img/esphome09.png"  width="350" height="400">
 Figura 7: Conexão do ESPHome ao Raspberry onde roda o Home Assistant
