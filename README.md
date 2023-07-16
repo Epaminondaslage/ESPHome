@@ -188,7 +188,8 @@ Figura x: Sensor DHT 22 e Módulo sensor DHT22
 Figura x: Montagem fisica do módulo sensor DHT22 no ESP32 DEV
 </p>
 <li>Após a compilação, o firmware estará disponível para download.</li>
-* Quando o dispositivo estiver conectado ao Home Assistant com o novo firmware, ele será automaticamente detectado e adicionado à interface do usuário do Home Assistant.
+</p>
+* Quando o dispositivo estiver conectado ao Home Assistant com o novo firmware, ele será automaticamente detectado e adicionado à interface do usuário do Home Assistant.</p>
 * Agora você pode monitorar e controlar o dispositivo diretamente através do Home Assistant.
 </p>
 Lembre-se de que, ao adicionar ou modificar sensores no arquivo YAML do ESPHome, você precisará recompilar e reenviar o firmware para o dispositivo ESP.
