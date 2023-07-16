@@ -175,7 +175,7 @@ Figura x: Arquivo YAML do sensor desejado
 
 <li>Montagem fisica do sensor no ESP32</li>li>
 
-<img src="img/esphome12.png"  width="420" height="220">
+<img src="img/esphome12.png"  width="400" height="220">
 Figura x: Sensor DHT 22 e Módulo sensor DHT22
 
 <li>Após a compilação, o firmware estará disponível para download.</li>
