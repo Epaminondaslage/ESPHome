@@ -169,16 +169,16 @@ Figura x: site do ESPHome e sensor desejado
 * Depois de preencher o arquivo YAML, clique em "Salvar" para verificar a configuração.
 * Se não houver erros, clique em "Compile" para criar o firmware personalizado para o dispositivo. O próximo passo será fazer o Flash do firmware para o dispositivo ESP. Deve-se tomar muita atenção com a identação no arquivo YAML. Ele é obrigatória.
 </p>
-<img src="img/esphome11.png"  width="310" height="250">
+<img src="img/esphome11.png"  width="290" height="250">
 Figura x: Parte do código YAML do sensor desejado
 </p>
-<img src="img/esphome11a.png"  width="310" height="250">
+<img src="img/esphome11a.png"  width="290" height="250">
 Figura x: Arquivo YAML completo
 </p>
 <li>Montagem fisica do sensor DHT22</li>
 * O DHT22 e o DHT11 requerem resistores pull up externos na linha de dados. Para fazer isso, solde um resistor com cerca de 4,7kΩ (qualquer coisa na faixa de 1kΩ a 10kΩ provavelmente funcionará bem, mas se tiver problemas tente o de 4,7kΩ recomendado pelo fabricante) entre DATA e 3,3V. Será mais prático adquirir o módulo sensor pois este já vem com os resitores necessários.
 </p>
-<img src="img/esphome12.png"  width="320" height="220">
+<img src="img/esphome12.png"  width="290" height="220">
 Figura x: Sensor DHT 22 e Módulo sensor DHT22
 </p>
 <li>Montagem fisica do módulo sensor DHT22 no ESP32 DEV</li>
