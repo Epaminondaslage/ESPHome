@@ -158,19 +158,18 @@ Figura x: Configuração do ESPHme no Home Assistant
 <li> Você deverá conectar o ESP32 com um cabo USP a uma porta do raspberry.</li>
    
 <img src="img/esphome09.png"  width="300" height="400">
-Figura x: Conexão do ESPHme ao Raspberry onde roda o Home Assistant
+Figura x: Conexão do ESPHome ao Raspberry onde roda o Home Assistant
    
-<li>
-Para preencher o arquivo de configuração YAML conforme o sensor/dispositivo desejado. Vá ao site do EspHome e procure. https://esphome.io/components/sensor/dht.html?highlight=dht22 .Você será redirecionado para a página de edição do dispositivo. Aqui, você pode começar a preencher o arquivo de configuração YAML com as informações específicas do dispositivo e dos sensores que deseja adicionar.O ESPHome oferece uma documentação abrangente sobre as configurações disponíveis que você pode adicionar ao arquivo YAML para personalizar o comportamento do dispositivo.</li>
+<li>Para preencher o arquivo de configuração YAML conforme o sensor/dispositivo desejado. Vá ao site do EspHome e procure. https://esphome.io/components/sensor/dht.html?highlight=dht22 .Você será redirecionado para a página de edição do dispositivo. Aqui, você pode começar a preencher o arquivo de configuração YAML com as informações específicas do dispositivo e dos sensores que deseja adicionar.O ESPHome oferece uma documentação abrangente sobre as configurações disponíveis que você pode adicionar ao arquivo YAML para personalizar o comportamento do dispositivo.</li>
 
-<img src="img/esphome10.png"  width="500" height="300">
+<img src="img/esphome10.png"  width="600" height="400">
 Figura x: site do ESPHome e sensor desejado
-<li>
-Verificar a configuração e compilar o firmware
+
+<li> Verificar a configuração do arquivo YAML e compilar o firmware</li>
 * Depois de preencher o arquivo YAML, clique em "Salvar" para verificar a configuração.
 * Se não houver erros, clique em "Compile" para criar o firmware personalizado para o dispositivo. O próximo passo será fazer o Flash do firmware para o dispositivo ESP. Deve-se tomar muita atenção com a identação no arquivo YAML. Ele é obrigatória.
 
-<img src="img/esphome11.png"  width="300" height="250">
+<img src="img/esphome11.png"  width="310" height="250">
 Figura x: Arquivo YAML do sensor desejado
 
 <li>Montagem fisica do sensor no ESP32</li>
