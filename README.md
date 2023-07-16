@@ -32,9 +32,9 @@ ESPHome é uma estrutura de firmware de código aberto para microcontroladores c
 O ESPHome é especialmente popular entre os desenvolvedores e entusiastas de IoT, pois permite o desenvolvimento de dispositivos personalizados e a integração com outros sistemas de automação residencial, como o Home Assistant. Com o ESPHome, é possível criar sensores, interruptores e outros dispositivos inteligentes controlados por Wi-Fi.
 </p>
 Graças à sua flexibilidade e extensibilidade, o ESPHome torna o processo de desenvolvimento de dispositivos IoT mais acessível a uma ampla gama de usuários. Ele fornece controle total sobre o firmware, permitindo personalizar os dispositivos conforme necessário. O ESPHome simplifica o desenvolvimento de soluções de IoT, proporcionando uma base sólida para a criação de dispositivos conectados e sistemas de automação residencial.
-</p>
+
 # Protocolo de comunicação do ESPHome
-</p>
+
 O ESPHome pode usar o protocolo MQTT para comunicação entre os dispositivos ESP8266/ESP32 e o Home Assistant, mas não é exclusivamente limitado a esse protocolo. O ESPHome suporta várias opções de comunicação, e MQTT é apenas uma delas.
 
 <img src="img/esphome0.png"  width="300" height="100">
@@ -50,9 +50,9 @@ Quando se trata de comunicação com o Home Assistant, o ESPHome possui duas op�
 </p>
 </ol>
 Ao utilizar o MQTT, o ESPHome publica e/ou subscreve tópicos MQTT para enviar e receber dados do Home Assistant. Os dados enviados podem incluir leituras de sensores, estado de atuadores, informações de dispositivos e outras informações relevantes.
-</p>
+
 # Comparação entre ESP32 e ESP8266
-</p>
+
 O ESP32 e o ESP8266 são dois microcontroladores populares desenvolvidos pela empresa Espressif Systems. Embora ambos os dispositivos sejam amplamente utilizados em projetos de IoT e compartilhem algumas características semelhantes, eles também possuem diferenças significativas em termos de desempenho, recursos e capacidades de conectividade. Segue uma comparação entre o ESP32 e o ESP8266:
 <ul>
 <li>Processador: O ESP32 possui um processador de 32 bits mais poderoso e rápido em comparação com o ESP8266. Enquanto o ESP8266 normalmente opera a uma velocidade de 80 MHz, o ESP32 pode operar em frequências de até 240 MHz.</li>
