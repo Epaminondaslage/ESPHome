@@ -136,7 +136,7 @@ Figura x: Configuração do ESPHme no Home Assistant
 
 # Criando dispositivos com ESPHome
 
-Pra criar um novo dispositivo vamos fazer o exemplo de um sensor te temperatura e umidade com ESP8266 e Crie um arquivo de configuração YAML para o dispositivo ESP32 e DHT11
+Pra criar um novo dispositivo vamos fazer o exemplo de um sensor te temperatura e umidade com ESP8266 e Crie um arquivo de configuração YAML para o dispositivo ESP32 e DHT22
 <ol></ol>
 <li>No Home Assistant, acesse novamente o painel esquerdo e clique em "Supervisor", depois selecione "ESPHome Dashboard". Clique no botão "+", localizado no canto inferior direito, para adicionar um novo dispositivo ESP. Dê um nome para o dispositivo e, em seguida, clique em "Criar".</li>
 
@@ -155,16 +155,27 @@ A opçao que vamos usar será : instalar o ESPHome conectando o dispositivo ao c
 <img src="img/esphome08.png"  width="300" height="400">
 Figura x: Configuração do ESPHme no Home Assistant
 
-. Preencha o arquivo de configuração YAML
-•	Você será redirecionado para a página de edição do dispositivo. Aqui, você pode começar a preencher o arquivo de configuração YAML com as informações específicas do dispositivo e dos sensores que deseja adicionar.
-•	O ESPHome oferece uma documentação abrangente sobre as configurações disponíveis que você pode adicionar ao arquivo YAML para personalizar o comportamento do dispositivo.
+<li> Você deverá conectar o ESP32 com um cabo USP a uma porta do raspberry.</li>
+   
+<img src="img/esphome09.png"  width="300" height="400">
+Figura x: Conexão do ESPHme ao Raspberry onde roda o Home Assistant
+   
+<li>
+Para preencher o arquivo de configuração YAML conforme o sensor/dispositivo desejado. Vá ao site do EspHome e procure. https://esphome.io/components/sensor/dht.html?highlight=dht22 .Você será redirecionado para a página de edição do dispositivo. Aqui, você pode começar a preencher o arquivo de configuração YAML com as informações específicas do dispositivo e dos sensores que deseja adicionar.O ESPHome oferece uma documentação abrangente sobre as configurações disponíveis que você pode adicionar ao arquivo YAML para personalizar o comportamento do dispositivo.</li>
 
+<img src="img/esphome10.png"  width="300" height="400">
+Figura x: site do ESPHome e sensor desejado
+
+</li>
 Verificar a configuração e compilar o firmware
 •	Depois de preencher o arquivo YAML, clique em "Salvar" para verificar a configuração.
-•	Se não houver erros, clique em "Compile" para criar o firmware personalizado para o dispositivo.
-Passo 6: Flash do firmware para o dispositivo ESP
+•	Se não houver erros, clique em "Compile" para criar o firmware personalizado para o dispositivo. o proximo passo será fazer o Flash do firmware para o dispositivo ESP.
+
+<img src="img/esphome10.png"  width="300" height="400">
+Figura x: site do ESPHome e sensor desejado
+
 •	Após a compilação, o firmware estará disponível para download.
-•	Você precisará conecta o dispositivo ESP ao computador via USB, para então utilizar uma ferramenta como o "esphome-flasher" para enviar o firmware para o dispositivo.
+
 Passo 7: Monitorar o dispositivo no Home Assistant
 •	Quando o dispositivo estiver conectado ao Home Assistant com o novo firmware, ele será automaticamente detectado e adicionado à interface do usuário do Home Assistant.
 •	Agora você pode monitorar e controlar o dispositivo diretamente através do Home Assistant.
