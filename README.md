@@ -4,26 +4,17 @@
 <a href="http://lattes.cnpq.br/7787341723868111"> Currículo Lattes LAGE, E. S.</a> 
 
 # Índice 
-* [Sites relacionados ao ESPHome](#Sites-relacionados-ao-ESPHome)
-* [ESPHome](#ESPHome) 
+
+* [Introdução](#Introdução) 
 * [Protocolo de comunicação do ESPHome](#Protocolo-de-comunicação-do-ESPHome) 
 * [Comparação entre ESP32 e ESP8266](#Comparação-entre-ESP32-e-ESP8266) 
 * [ESP32](#ESP32) 
 * [ESP8266](#ESP8266)
 * [Instalando o ESPHome no Home Assistant](#Instalando-o-ESPHome-no-Home-Assistant)
 * [Criação de dispositivos com ESPHome](#Criação-de-dispositivos-com-ESPHome)
+* [Sites relacionados ao ESPHome](#Sites-relacionados-ao-ESPHome)
 
-# Sites relacionados ao ESPHome
-
-* Site do ESPHome https://esphome.io/ 
-* Configuração da Biblioteca de Placas (Colar o link no preferences da IDE Arduino):  
-   https://arduino.esp8266.com/stable/package_esp8266com_index.json
-* ch340-drivers. NodeMCU V3
-    https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all *
-* CP210x USB to UART Bridge  NodeMCU V3
-https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
-
-# ESPHome  
+# Introdução  
 
 ESPHome é uma estrutura de firmware de código aberto para microcontroladores como ESP8266 e ESP32. Ele permite a configuração e integração de dispositivos IoT personalizados por meio de uma linguagem de configuração baseada em YAML. A plataforma ESPHome suporta uma variedade de componentes, como sensores, atuadores e interfaces de comunicação, incluindo MQTT e API REST. Ela oferece recursos avançados, como atualização OTA (Over-The-Air) para facilitar a atualização remota do firmware dos dispositivos.
 </p>
@@ -199,6 +190,15 @@ Figura 12: Montagem fisica do módulo sensor DHT22 no ESP32 DEV
 Lembre-se de que, ao adicionar ou modificar sensores no arquivo YAML do ESPHome, você precisará recompilar e reenviar o firmware para o dispositivo ESP.
 </ol>
 
+# Sites relacionados ao ESPHome
+
+* Site do ESPHome https://esphome.io/ 
+* Configuração da Biblioteca de Placas (Colar o link no preferences da IDE Arduino):  
+   https://arduino.esp8266.com/stable/package_esp8266com_index.json
+* ch340-drivers. NodeMCU V3
+    https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all *
+* CP210x USB to UART Bridge  NodeMCU V3
+https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
 
 
 
